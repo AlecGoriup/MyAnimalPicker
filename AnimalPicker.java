@@ -15,13 +15,13 @@ public class AnimalPicker
         {
             if (animal.equals("dog"))
             {
-                System.out.println("DOG ASCII ART");
+                System.out.println("  __      _\no\'\')}____//\n `_/      )\n (_(_/-(_/");
                 break;
             }
 
             else if (animal.equals("cat"))
             {
-                System.out.println("CAT ASCII ART");
+                System.out.println("      |\\      _,,,---,,_\nZZZzz /,`.-\'`\'    -.  ;-;;,_\n     |,4-  ) )-,_. ,\\ (  `\'-\'\n    \'---\'\'(_/--\'  `-\'\\_)");
                 break;
             }
 
