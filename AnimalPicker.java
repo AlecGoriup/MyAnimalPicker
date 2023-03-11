@@ -11,19 +11,26 @@ public class AnimalPicker
         animal = scan.nextLine();
 
 
-        if (animal.equals("dog"))
+        while (!animal.equals("dog") || !animal.equals("cat"))
         {
-            System.out.println("DOG ASCII ART");
-        }
+            if (animal.equals("dog"))
+            {
+                System.out.println("DOG ASCII ART");
+                break;
+            }
 
-        else if (animal.equals("cat"))
-        {
-            System.out.println("CAT ASCII ART");
-        }
+            else if (animal.equals("cat"))
+            {
+                System.out.println("CAT ASCII ART");
+                break;
+            }
 
-        else 
-        {
-            System.out.println("Please enter 'dog' or 'cat'");
+            else 
+            {
+                System.out.println("Please enter 'dog' or 'cat'");
+                animal = scan.nextLine();
+            }
+
         }
 
         
